@@ -12,7 +12,7 @@ const App = () => {
   const[showLogin,setShowLogin]= useState(false)
 
   return (
-
+    
     <>
     {showLogin?<LoginPopup/>:<></>}
     <div className='app'>
