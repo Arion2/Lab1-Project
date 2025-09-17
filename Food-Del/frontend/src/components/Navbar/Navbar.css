@@ -47,7 +47,7 @@ font-size: 18px;
     border-bottom: 2px solid #49557e;
 }
 
-navbar li{
+.navbar li{
     cursor: pointer;
 }
 
@@ -68,5 +68,24 @@ navbar li{
 @media (max-width:750px) {
     .navbar-menu {
         display: none;
+    }
+}
+@media (max-width:900px) {
+    .navbar .logo {
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 215px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
     }
 }
