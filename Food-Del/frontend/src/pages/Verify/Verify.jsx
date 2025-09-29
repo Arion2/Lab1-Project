@@ -3,6 +3,10 @@ import './Verify.css'
 import { useSearchParams } from "react-router-dom"
 import { useContext } from "react";
 import { useEffect } from "react";
+import { useNavigate } from 'react-router-dom'
+import { StoreContext } from "../../context/Store.Context";
+import axios from "axios";
+
 
 const Verify = () => {
 

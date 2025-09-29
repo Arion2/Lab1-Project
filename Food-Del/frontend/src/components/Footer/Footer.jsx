@@ -8,9 +8,7 @@ return (
         <div className="footer-content">
             <div className="footer-content-left">
             <img src={assets.logo} alt="" />
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p> A user-friendly food delivery website that lets customers browse menus, add items to their cart, and order from local restaurants with ease. Features include real-time order tracking, secure payments, and personalized recommendations for a seamless dining experience at home</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon}alt="" />
                 <img src={assets.twitter_icon} alt="" />
